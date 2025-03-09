@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #B8E1FF;
+}
+.tabcontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.tab{
+    width: 50%;
+    height: 75px;
+    border: none;
+    background-color: rgb(149, 211, 255);
+    border-bottom: 3px solid;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.tab:hover{
+    background-color: rgb(97, 188, 253);
+}
+
+#active{
+    background-color: rgb(184, 225, 255);
+    border-left: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    cursor:default;
+}
+
+.recipecontainer{
+    height: 75vh;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E8AEB7;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 10px black;
+}
+
+.recipe{
+    background-color: #94FBAB;
+    border: 3px solid;
+    border-radius: 10px;
+    width: 20%;
+    height: 300px;
+    box-shadow: 5xp, 5px, 5px, #82ABA1;
+    overflow:hidden;
+    box-shadow: 5px 5px 5px #82ABA1;
+
+}
+
+.recipe:hover{
+    background-color: #6be987;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #62827a;
+}
+
+.recipe img{
+    width: 100%;
+    height: 60%;
+}
+
+.recipe p{
+    text-align: center;
+    padding: 5px;
+    font-size: .7em;
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+}
+
+.recipe h3{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 1em;
+}

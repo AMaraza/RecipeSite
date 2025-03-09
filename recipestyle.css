@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #B8E1FF;
+}
+.tabcontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.tab{
+    width: 50%;
+    height: 75px;
+    border: none;
+    background-color: rgb(149, 211, 255);
+    border-bottom: 3px solid;
+    font-size: 2em;
+    cursor: pointer;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+}
+
+.tab:hover{
+    background-color: rgb(97, 188, 253);
+}
+
+#active{
+    background-color: rgb(184, 225, 255);
+    border-left: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    cursor:default;
+}
+
+.ingredientscontainer{
+    width: 50vw;
+    height: 30vh;
+    background-color: #E8AEB7;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 10px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.ingredientscontainer h1{
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.ingredientscontainer p{
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.ingredientscontainer ul{
+    text-align: center;
+    list-style: inside;
+}
+
+.ingredients{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.ingredients li{
+    padding: 10px;
+    display: none;
+}
