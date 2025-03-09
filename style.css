@@ -33,7 +33,7 @@ body{
 }
 
 .recipecontainer{
-    height: 75vh;
+    height: auto;
     width: 75%;
     display: flex;
     justify-content: space-evenly;
@@ -57,7 +57,11 @@ body{
     box-shadow: 5xp, 5px, 5px, #82ABA1;
     overflow:hidden;
     box-shadow: 5px 5px 5px #82ABA1;
+}
 
+.recipe a{
+    display: inline-block;
+    text-decoration: none;
 }
 
 .recipe:hover{
@@ -74,7 +78,7 @@ body{
 .recipe p{
     text-align: center;
     padding: 5px;
-    font-size: .7em;
+    font-size: .6em;
     color: rgb(100, 100, 100);
     font-weight: bold;
 }
